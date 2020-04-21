@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <SoundDef>
-    <defName>Pawn_Human_Wounded</defName>
+    <defName>Pawn_Male1_Wounded</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>20</maxVoices>
@@ -9,76 +9,76 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain1</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain1</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain2</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain2</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain3</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain3</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain4</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain4</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain5</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain5</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain6</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain6</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain7</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain7</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain8</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain8</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain9</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain9</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain10</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain10</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain11</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain11</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain12</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain12</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain13</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain13</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain14</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain14</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain15</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain15</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain16</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain16</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain17</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain17</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain18</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain18</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain19</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain19</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain20</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain20</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain21</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain21</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain22</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain22</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain23</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain23</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Pain24</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Pain24</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -99,7 +99,7 @@
     </subSounds>
   </SoundDef>
   <SoundDef>
-    <defName>Pawn_Human_Death</defName>
+    <defName>Pawn_Male1_Death</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>24</maxVoices>
@@ -107,76 +107,76 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death1</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death1</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death2</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death2</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death3</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death3</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death4</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death4</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death5</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death5</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death6</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death6</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death7</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death7</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death8</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death8</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death9</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death9</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death10</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death10</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death11</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death11</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death14</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death14</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death18</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death18</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death19</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death19</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death20</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death20</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death21</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death21</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death22</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death22</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death23</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death23</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death24</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death24</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death25</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death25</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death26</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death26</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death27</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death27</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death28</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death28</clipFolderPath>
           </li>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Human/Human_Death29</clipFolderPath>
+            <clipFolderPath>Pawn/Animal/Male1/Male1_Death29</clipFolderPath>
           </li>
         </grains>
         <volumeRange>

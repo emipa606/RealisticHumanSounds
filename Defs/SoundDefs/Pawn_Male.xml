@@ -277,8 +277,8 @@
           </li>
         </grains>
         <volumeRange>
-          <min>45</min>
-          <max>50</max>
+          <min>225</min>
+          <max>250</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
@@ -375,8 +375,8 @@
           </li>
         </grains>
         <volumeRange>
-          <min>63</min>
-          <max>63</max>
+          <min>250</min>
+          <max>275</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
@@ -384,7 +384,7 @@
         </pitchRange>
         <distRange>
           <min>0</min>
-          <max>50</max>
+          <max>60</max>
         </distRange>
         <sustainLoop>False</sustainLoop>
       </li>

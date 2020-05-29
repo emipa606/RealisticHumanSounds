@@ -13,6 +13,7 @@ namespace RealisticHumanSounds
         static HarmonyPatches()
         {
             new Harmony("mlie.RealisticHumanSounds").PatchAll();
+            LoadedModManager.GetMod<RealisticHumanSounds>().UpdateSoundDefs();
         }
 
         [HarmonyPatch(typeof(SoundStarter), "PlayOneShot", new Type[] { typeof(SoundDef), typeof(SoundInfo) })]

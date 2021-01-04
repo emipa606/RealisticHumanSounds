@@ -10,12 +10,13 @@ namespace RealisticHumanSounds
         /// <summary>
         /// The settings our mod has.
         /// </summary>
-        public enum maleSounds
+        public enum MaleSounds
         {
             vanilla,
-            anime
+            anime,
+            vanillaAlternate
         };
-        public enum femaleSounds
+        public enum FemaleSounds
         {
             vanilla,
             anime
@@ -25,8 +26,8 @@ namespace RealisticHumanSounds
         public float originalMaleMax;
         public float originalFemaleMin;
         public float originalFemaleMax;
-        public maleSounds selectedMaleSound = maleSounds.vanilla;
-        public femaleSounds selectedFemaleSound = femaleSounds.vanilla;
+        public MaleSounds selectedMaleSound = MaleSounds.vanilla;
+        public FemaleSounds selectedFemaleSound = FemaleSounds.vanilla;
         public float maleVolumePercent = 100f;
         public float femaleVolumePercent = 100f;
 
@@ -48,7 +49,7 @@ namespace RealisticHumanSounds
         /// <summary>
         /// A reference to our settings.
         /// </summary>
-        Settings settings;
+        readonly Settings settings;
 
         /// <summary>
         /// A mandatory constructor which resolves the reference to our settings.
@@ -113,7 +114,7 @@ namespace RealisticHumanSounds
         {
             if (settings.maleVolumePercent == 0) { settings.maleVolumePercent = 100f; }
             if (settings.femaleVolumePercent == 0) { settings.femaleVolumePercent = 100f; }
-            Listing_Standard listing = new Listing_Standard();
+            var listing = new Listing_Standard();
             listing.Begin(inRect);
             listing.AddLabeledSlider("Male soundpack", ref settings.selectedMaleSound);
             //listing.Gap();

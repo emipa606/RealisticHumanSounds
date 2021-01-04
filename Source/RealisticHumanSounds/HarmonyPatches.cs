@@ -31,21 +31,24 @@ namespace RealisticHumanSounds
                                 case Gender.Male:
                                     switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedMaleSound)
                                     {
-                                        case Settings.maleSounds.vanilla:
+                                        case Settings.MaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Male1_Wounded");
                                             break;
-                                        case Settings.maleSounds.anime:
+                                        case Settings.MaleSounds.anime:
                                             soundDef = SoundDef.Named("Pawn_Male2_Wounded");
+                                            break;
+                                        case Settings.MaleSounds.vanillaAlternate:
+                                            soundDef = SoundDef.Named("Pawn_Male3_Wounded");
                                             break;
                                     }
                                     break;
                                 case Gender.Female:
                                     switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedFemaleSound)
                                     {
-                                        case Settings.femaleSounds.vanilla:
+                                        case Settings.FemaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Female1_Wounded");
                                             break;
-                                        case Settings.femaleSounds.anime:
+                                        case Settings.FemaleSounds.anime:
                                             soundDef = SoundDef.Named("Pawn_Female2_Wounded");
                                             break;
                                     }
@@ -58,21 +61,24 @@ namespace RealisticHumanSounds
                                 case Gender.Male:
                                     switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedMaleSound)
                                     {
-                                        case Settings.maleSounds.vanilla:
+                                        case Settings.MaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Male1_Death");
                                             break;
-                                        case Settings.maleSounds.anime:
+                                        case Settings.MaleSounds.anime:
                                             soundDef = SoundDef.Named("Pawn_Male2_Death");
+                                            break;
+                                        case Settings.MaleSounds.vanillaAlternate:
+                                            soundDef = SoundDef.Named("Pawn_Male3_Death");
                                             break;
                                     }
                                     break;
                                 case Gender.Female:
                                     switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedFemaleSound)
                                     {
-                                        case Settings.femaleSounds.vanilla:
+                                        case Settings.FemaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Female1_Death");
                                             break;
-                                        case Settings.femaleSounds.anime:
+                                        case Settings.FemaleSounds.anime:
                                             soundDef = SoundDef.Named("Pawn_Female2_Death");
                                             break;
                                     }
@@ -83,7 +89,7 @@ namespace RealisticHumanSounds
                 }
                 catch (Exception exception)
                 {
-                    Log.Warning($"Sound is supposed to be {soundDef.defName}, cannot figure out gender. {exception.ToString()}");
+                    Log.Warning($"Sound is supposed to be {soundDef.defName}, cannot figure out gender. {exception}");
                 }
             }
         }

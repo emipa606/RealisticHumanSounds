@@ -51,6 +51,9 @@ namespace RealisticHumanSounds
                                         case Settings.FemaleSounds.anime:
                                             soundDef = SoundDef.Named("Pawn_Female2_Wounded");
                                             break;
+                                        case Settings.FemaleSounds.vanillaAlternate:
+                                            soundDef = SoundDef.Named("Pawn_Female3_Wounded");
+                                            break;
                                     }
                                     break;
                             }
@@ -80,6 +83,9 @@ namespace RealisticHumanSounds
                                             break;
                                         case Settings.FemaleSounds.anime:
                                             soundDef = SoundDef.Named("Pawn_Female2_Death");
+                                            break;
+                                        case Settings.FemaleSounds.vanillaAlternate:
+                                            soundDef = SoundDef.Named("Pawn_Female3_Death");
                                             break;
                                     }
                                     break;

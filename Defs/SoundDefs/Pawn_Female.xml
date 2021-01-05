@@ -390,4 +390,214 @@
       </li>
     </subSounds>
   </SoundDef>
+  <SoundDef>
+    <defName>Pawn_Female3_Wounded</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>20</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain1</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain2</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain3</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain4</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain5</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain6</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain7</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain8</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain9</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain10</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain11</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain12</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain13</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain14</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain15</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain16</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain17</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain18</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain19</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain20</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain21</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain22</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain23</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain24</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain25</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain26</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain27</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain28</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain29</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain30</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain31</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain32</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain33</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Pain34</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>150</min>
+          <max>165</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1.0</min>
+          <max>1.2</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>40</max>
+        </distRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Pawn_Female3_Death</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>24</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death1</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death2</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death3</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death4</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death5</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death6</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death7</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death8</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death9</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death10</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death11</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death14</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death18</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death19</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death20</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death21</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death22</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death23</clipFolderPath>
+          </li>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Female3/Female3_Death24</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>158</min>
+          <max>175</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1.0</min>
+          <max>1.2</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>60</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
 </Defs>

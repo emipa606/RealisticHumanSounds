@@ -19,7 +19,8 @@ namespace RealisticHumanSounds
         public enum FemaleSounds
         {
             vanilla,
-            anime
+            anime,
+            vanillaAlternate
         };
 
         public float originalMaleMin;

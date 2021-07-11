@@ -5,21 +5,19 @@ using Verse.Sound;
 
 namespace RealisticHumanSounds
 {
-
     [StaticConstructorOnStartup]
     internal static class HarmonyPatches
     {
-
         static HarmonyPatches()
         {
             new Harmony("mlie.RealisticHumanSounds").PatchAll();
             LoadedModManager.GetMod<RealisticHumanSounds>().UpdateSoundDefs();
         }
 
-        [HarmonyPatch(typeof(SoundStarter), "PlayOneShot", new Type[] { typeof(SoundDef), typeof(SoundInfo) })]
-        class Patch
+        [HarmonyPatch(typeof(SoundStarter), "PlayOneShot", typeof(SoundDef), typeof(SoundInfo))]
+        private class Patch
         {
-            static void Prefix(ref SoundDef soundDef, ref SoundInfo info)
+            private static void Prefix(ref SoundDef soundDef, ref SoundInfo info)
             {
                 try
                 {
@@ -29,7 +27,8 @@ namespace RealisticHumanSounds
                             switch (info.Maker.Cell.GetFirstPawn(info.Maker.Map).gender)
                             {
                                 case Gender.Male:
-                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedMaleSound)
+                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()
+                                        .selectedMaleSound)
                                     {
                                         case Settings.MaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Male1_Wounded");
@@ -41,9 +40,11 @@ namespace RealisticHumanSounds
                                             soundDef = SoundDef.Named("Pawn_Male3_Wounded");
                                             break;
                                     }
+
                                     break;
                                 case Gender.Female:
-                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedFemaleSound)
+                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()
+                                        .selectedFemaleSound)
                                     {
                                         case Settings.FemaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Female1_Wounded");
@@ -55,14 +56,17 @@ namespace RealisticHumanSounds
                                             soundDef = SoundDef.Named("Pawn_Female3_Wounded");
                                             break;
                                     }
+
                                     break;
                             }
+
                             return;
                         case "Pawn_Human_Death":
                             switch (info.Maker.Cell.GetFirstPawn(info.Maker.Map).gender)
                             {
                                 case Gender.Male:
-                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedMaleSound)
+                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()
+                                        .selectedMaleSound)
                                     {
                                         case Settings.MaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Male1_Death");
@@ -74,9 +78,11 @@ namespace RealisticHumanSounds
                                             soundDef = SoundDef.Named("Pawn_Male3_Death");
                                             break;
                                     }
+
                                     break;
                                 case Gender.Female:
-                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>().selectedFemaleSound)
+                                    switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()
+                                        .selectedFemaleSound)
                                     {
                                         case Settings.FemaleSounds.vanilla:
                                             soundDef = SoundDef.Named("Pawn_Female1_Death");
@@ -88,8 +94,10 @@ namespace RealisticHumanSounds
                                             soundDef = SoundDef.Named("Pawn_Female3_Death");
                                             break;
                                     }
+
                                     break;
                             }
+
                             return;
                     }
                 }
@@ -99,6 +107,5 @@ namespace RealisticHumanSounds
                 }
             }
         }
-
     }
 }

@@ -1,6 +1,6 @@
 # RealisticHumanSounds
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
@@ -16,7 +16,7 @@ There aren addons that adds sounds for various HAR-mods as well by verniy709
 
 If you have a soundpack that would fit this mod, contact me so we can add it to the list!
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 
 [table]
@@ -28,12 +28,12 @@ If you have a soundpack that would fit this mod, contact me so we can add it to 
 	[/tr]
 [/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Now Updated for the full release of Rimworld!
 
-Are you annoyed by the fact of Pawns being unable to express themselves when they&apos;re getting shot or stabbed?
+Are you annoyed by the fact of Pawns being unable to express themselves when they're getting shot or stabbed?
 Worry no longer!
 introducing A Mod that adds pain and death sounds to most pawns.
 Now Your battles will sound Realistic and Painful.
@@ -48,7 +48,7 @@ Please load this mod last on your mod list to prevent any issues
 Before you ask about what mod is for the characters legs and arms animation its from Facial Stuff 1.0
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

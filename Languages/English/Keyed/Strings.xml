@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RHS.malesoundpack>Male soundpack</RHS.malesoundpack>
+  <RHS.malevolume>Male volume: {0}%</RHS.malevolume>
+  <RHS.femalesoundpack>Female soundpack</RHS.femalesoundpack>
+  <RHS.femalevolume>Female volume: {0}%</RHS.femalevolume>
+  <RHS.version.label>Installed mod-version: {0}</RHS.version.label>
+</LanguageData>

@@ -1,5 +1,8 @@
 # Changelog for RealisticHumanSounds
 
+1.3.2 - Added settings to select to not play death or wounded sounds
+
+
 1.3.1 - Added volume-settings. Opened the setting-strings for translations.
 
 

@@ -21,6 +21,8 @@ public class Settings : ModSettings
         vanillaAlternate
     }
 
+    public bool deathSounds = true;
+
     public float femaleVolumePercent = 100f;
     public float maleVolumePercent = 100f;
     public float originalFemaleMax;
@@ -30,6 +32,7 @@ public class Settings : ModSettings
     public float originalMaleMin;
     public FemaleSounds selectedFemaleSound = FemaleSounds.vanilla;
     public MaleSounds selectedMaleSound = MaleSounds.vanilla;
+    public bool woundedSounds = true;
 
     /// <summary>
     ///     The part that writes our settings to file. Note that saving is by ref.
@@ -40,6 +43,8 @@ public class Settings : ModSettings
         Scribe_Values.Look(ref selectedFemaleSound, "selectedFemaleSound");
         Scribe_Values.Look(ref maleVolumePercent, "maleVolumePercent");
         Scribe_Values.Look(ref femaleVolumePercent, "femaleVolumePercent");
+        Scribe_Values.Look(ref deathSounds, "deathSounds", true);
+        Scribe_Values.Look(ref woundedSounds, "woundedSounds", true);
         base.ExposeData();
     }
 }

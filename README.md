@@ -6,11 +6,12 @@ Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
 
 - Added support for female sounds.
+- Added volume-sliders
 - Added setting to select different soundpacks
 - Male soundpack 2, Female soundpack 1 and 2 provided by [S]Quo-S, taken from FO4 and BF5
 - Male soundpack 3 provided by Battlefleet Covfefe, taken mainly from Skyrim
 
-There aren addons that adds sounds for various HAR-mods as well by verniy709
+There are addons that adds sounds for various HAR-mods as well by verniy709
  https://steamcommunity.com/sharedfiles/filedetails/?id=2505010072]Realistic Humansounds HAR Patch
  https://steamcommunity.com/sharedfiles/filedetails/?id=2507124912]Realistic Humansounds Android Tiers Patch
 

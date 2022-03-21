@@ -107,6 +107,9 @@ public class RealisticHumanSounds : Mod
         listing.Label("RHS.femalevolume".Translate(settings.femaleVolumePercent));
         listing.Gap();
         settings.femaleVolumePercent = listing.Slider(settings.femaleVolumePercent, 50, 200, null, "50%", "200%", 1);
+        listing.Gap();
+        listing.CheckboxLabeled("RHS.deathsounds".Translate(), ref settings.deathSounds);
+        listing.CheckboxLabeled("RHS.woundedsounds".Translate(), ref settings.woundedSounds);
         listing.End();
         settings.Write();
     }

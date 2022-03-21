@@ -15,15 +15,21 @@ internal static class HarmonyPatches
     }
 
     [HarmonyPatch(typeof(SoundStarter), "PlayOneShot", typeof(SoundDef), typeof(SoundInfo))]
-    private class Patch
+    public class Patch
     {
-        private static void Prefix(ref SoundDef soundDef, ref SoundInfo info)
+        private static bool Prefix(ref SoundDef soundDef, ref SoundInfo info)
         {
             try
             {
                 switch (soundDef.defName)
                 {
                     case "Pawn_Human_Wounded":
+                        if (!LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()
+                                .woundedSounds)
+                        {
+                            return false;
+                        }
+
                         switch (info.Maker.Cell.GetFirstPawn(info.Maker.Map).gender)
                         {
                             case Gender.Male:
@@ -60,8 +66,14 @@ internal static class HarmonyPatches
                                 break;
                         }
 
-                        return;
+                        return true;
                     case "Pawn_Human_Death":
+                        if (!LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()
+                                .deathSounds)
+                        {
+                            return false;
+                        }
+
                         switch (info.Maker.Cell.GetFirstPawn(info.Maker.Map).gender)
                         {
                             case Gender.Male:
@@ -98,13 +110,15 @@ internal static class HarmonyPatches
                                 break;
                         }
 
-                        return;
+                        return true;
                 }
             }
             catch (Exception exception)
             {
-                Log.Warning($"Sound is supposed to be {soundDef.defName}, cannot figure out gender. {exception}");
+                Log.Warning($"Sound is supposed to be {soundDef?.defName}, cannot figure out gender. {exception}");
             }
+
+            return true;
         }
     }
 }

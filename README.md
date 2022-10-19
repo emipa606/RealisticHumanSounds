@@ -8,6 +8,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
 - Added support for female sounds.
 - Added volume-sliders
 - Added setting to select different soundpacks
+- Added settings to select to play death or wounded sounds
 - Male soundpack 2, Female soundpack 1 and 2 provided by [S]Quo-S, taken from FO4 and BF5
 - Male soundpack 3 provided by Battlefleet Covfefe, taken mainly from Skyrim
 
@@ -50,6 +51,7 @@ Before you ask about what mod is for the characters legs and arms animation its 
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

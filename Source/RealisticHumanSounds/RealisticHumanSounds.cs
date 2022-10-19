@@ -1,7 +1,8 @@
-﻿using System.Linq;
-using SettingsHelper;
+﻿using System;
+using System.Linq;
 using UnityEngine;
 using Verse;
+using static RealisticHumanSounds.Settings;
 
 namespace RealisticHumanSounds;
 
@@ -96,17 +97,33 @@ public class RealisticHumanSounds : Mod
 
         var listing = new Listing_Standard();
         listing.Begin(inRect);
-        listing.AddLabeledSlider("RHS.malesoundpack".Translate(), ref settings.selectedMaleSound);
+        listing.Label("RHS.malesoundpack".Translate());
+        foreach (var soundSet in (MaleSounds[])Enum.GetValues(typeof(MaleSounds)))
+        {
+            if (listing.RadioButton(soundSet.ToString(), settings.selectedMaleSound == soundSet))
+            {
+                settings.selectedMaleSound = soundSet;
+            }
+        }
+
         listing.Gap();
         listing.Label("RHS.malevolume".Translate(settings.maleVolumePercent));
         listing.Gap();
-        settings.maleVolumePercent = listing.Slider(settings.maleVolumePercent, 50, 200, null, "50%", "200%", 1);
+        settings.maleVolumePercent = listing.Slider(settings.maleVolumePercent, 50, 200);
         listing.GapLine();
-        listing.AddLabeledSlider("RHS.femalesoundpack".Translate(), ref settings.selectedFemaleSound);
+        listing.Label("RHS.femalesoundpack".Translate());
+        foreach (var soundSet in (FemaleSounds[])Enum.GetValues(typeof(FemaleSounds)))
+        {
+            if (listing.RadioButton(soundSet.ToString(), settings.selectedFemaleSound == soundSet))
+            {
+                settings.selectedFemaleSound = soundSet;
+            }
+        }
+
         listing.Gap();
         listing.Label("RHS.femalevolume".Translate(settings.femaleVolumePercent));
         listing.Gap();
-        settings.femaleVolumePercent = listing.Slider(settings.femaleVolumePercent, 50, 200, null, "50%", "200%", 1);
+        settings.femaleVolumePercent = listing.Slider(settings.femaleVolumePercent, 50, 200);
         listing.Gap();
         listing.CheckboxLabeled("RHS.deathsounds".Translate(), ref settings.deathSounds);
         listing.CheckboxLabeled("RHS.woundedsounds".Translate(), ref settings.woundedSounds);

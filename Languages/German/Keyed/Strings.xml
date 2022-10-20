@@ -8,4 +8,5 @@
   <RHS.version.label>Installierte Mod-Version: {0}</RHS.version.label>
   <RHS.deathsounds>Todesgeräusche spielen</RHS.deathsounds>
   <RHS.woundedsounds>Verwundetengeräusche spielen</RHS.woundedsounds>
+  <RHS.CurrentModVersion>Installierte Mod-Version: {0}</RHS.CurrentModVersion>
 </LanguageData>

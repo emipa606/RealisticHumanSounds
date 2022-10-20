@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Mlie;
 using UnityEngine;
 using Verse;
 using static RealisticHumanSounds.Settings;
@@ -8,6 +9,8 @@ namespace RealisticHumanSounds;
 
 public class RealisticHumanSounds : Mod
 {
+    private static string currentVersion;
+
     /// <summary>
     ///     A reference to our settings.
     /// </summary>
@@ -20,6 +23,9 @@ public class RealisticHumanSounds : Mod
     public RealisticHumanSounds(ModContentPack content) : base(content)
     {
         settings = GetSettings<Settings>();
+        currentVersion =
+            VersionFromManifest.GetVersionFromModMetaData(
+                ModLister.GetActiveModWithIdentifier("Mlie.RealisticHumanSounds"));
     }
 
     public override void WriteSettings()
@@ -127,8 +133,15 @@ public class RealisticHumanSounds : Mod
         listing.Gap();
         listing.CheckboxLabeled("RHS.deathsounds".Translate(), ref settings.deathSounds);
         listing.CheckboxLabeled("RHS.woundedsounds".Translate(), ref settings.woundedSounds);
+        if (currentVersion != null)
+        {
+            listing.Gap();
+            GUI.contentColor = Color.gray;
+            listing.Label("RHS.CurrentModVersion".Translate(currentVersion));
+            GUI.contentColor = Color.white;
+        }
+
         listing.End();
-        settings.Write();
     }
 
     /// <summary>

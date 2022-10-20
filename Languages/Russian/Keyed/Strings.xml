@@ -8,4 +8,5 @@
   <RHS.version.label>Установленная версия мода: {0}</RHS.version.label>
   <RHS.deathsounds>Играйте звуки смерти</RHS.deathsounds>
   <RHS.woundedsounds>Играйте в раненые звуки</RHS.woundedsounds>
+  <RHS.CurrentModVersion>Установленная версия мода: {0}</RHS.CurrentModVersion>
 </LanguageData>

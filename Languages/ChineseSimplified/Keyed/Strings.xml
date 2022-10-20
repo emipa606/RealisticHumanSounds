@@ -8,4 +8,5 @@
   <RHS.version.label>已安装的mod-version。{0}</RHS.version.label>
   <RHS.deathsounds>播放死亡的声音</RHS.deathsounds>
   <RHS.woundedsounds>播放受伤的声音</RHS.woundedsounds>
+  <RHS.CurrentModVersion>已安装的mod-version。{0}</RHS.CurrentModVersion>
 </LanguageData>

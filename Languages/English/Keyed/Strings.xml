@@ -7,4 +7,5 @@
   <RHS.version.label>Installed mod-version: {0}</RHS.version.label>
   <RHS.deathsounds>Play death-sounds</RHS.deathsounds>
   <RHS.woundedsounds>Play wounded-sounds</RHS.woundedsounds>
+  <RHS.CurrentModVersion>Installed mod-version: {0}</RHS.CurrentModVersion>
 </LanguageData>

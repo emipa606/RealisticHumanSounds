@@ -24,8 +24,7 @@ public class RealisticHumanSounds : Mod
     {
         settings = GetSettings<Settings>();
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(
-                ModLister.GetActiveModWithIdentifier("Mlie.RealisticHumanSounds"));
+            VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
 
     public override void WriteSettings()

@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="RealisticHumanSounds/RealisticHumanSounds.csproj" />
+</Solution>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Realistic Human Sounds (Continued)</name>
+  <name>[Legacy] [Legacy] Realistic Human Sounds (Continued)</name>
   <packageId>Mlie.RealisticHumanSounds</packageId>
   <author>Mlie</author>
   <url>https://github.com/emipa606/RealisticHumanSounds</url>
@@ -27,6 +27,10 @@
 Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
 
+[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url].[/b]
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the new version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3497264525]here[/url].
+This version will not receive any further updates.
+
 - Added support for female sounds.
 - Added volume-sliders
 - Added setting to select different soundpacks
@@ -45,7 +49,7 @@ If you have a soundpack that would fit this mod, contact me so we can add it to 
 [table]
 	[tr]
 		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/RealisticHumanSounds][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/RealisticHumanSounds/tree/legacy][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
@@ -81,8 +85,8 @@ Before you ask about what mod is for the characters legs and arms animation its 
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2013191418][img]https://img.shields.io/github/v/release/emipa606/RealisticHumanSounds?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>

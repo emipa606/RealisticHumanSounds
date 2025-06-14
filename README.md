@@ -1,13 +1,12 @@
-# [Realistic Human Sounds (Continued)]()
+# [Realistic Human Sounds (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3497264525)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
 
-The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md).
+**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md).**
 To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2013191418).
-[hr]
 
 - Added support for female sounds.
 - Added volume-sliders
@@ -55,4 +54,6 @@ Before you ask about what mod is for the characters legs and arms animation its 
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
+[![Image](https://img.shields.io/github/v/release/emipa606/RealisticHumanSounds?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3497264525) | tags:  realism

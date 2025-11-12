@@ -1,6 +1,6 @@
 # [Realistic Human Sounds (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3497264525)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://i.postimg.cc/1X4HT06h/Info.png)
 
 Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
@@ -21,9 +21,9 @@ There are addons that adds sounds for various HAR-mods as well by verniy709
 
 If you have a soundpack that would fit this mod, contact me so we can add it to the list!
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.postimg.cc/8csH3dWV/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://i.postimg.cc/hvhrw8xB/Original-Description.png)
 
 Now Updated for the full release of Rimworld!
 
@@ -42,13 +42,27 @@ Please load this mod last on your mod list to prevent any issues
 Before you ask about what mod is for the characters legs and arms animation its from Facial Stuff 1.0
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://i.postimg.cc/x8qR7GH9/Reporting-Issues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
+-  For best support, please use the Discord-channel for error-reporting.
+-  Do not report errors by making a discussion-thread, I get no notification of that.
+-  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
+
+
+
+![Image](https://img.litet.net/logos/ReportingIssues.png)
+
+
+
+-  See if the error persists if you just have this mod and its requirements active.
+-  If not, try adding your other mods until it happens again.
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.

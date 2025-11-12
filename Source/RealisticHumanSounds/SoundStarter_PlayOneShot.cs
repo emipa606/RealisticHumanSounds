@@ -5,8 +5,8 @@ using Verse.Sound;
 
 namespace RealisticHumanSounds;
 
-[HarmonyPatch(typeof(SoundStarter), "PlayOneShot", typeof(SoundDef), typeof(SoundInfo))]
-public static class Patch
+[HarmonyPatch(typeof(SoundStarter), nameof(SoundStarter.PlayOneShot), typeof(SoundDef), typeof(SoundInfo))]
+public static class SoundStarter_PlayOneShot
 {
     private static bool Prefix(ref SoundDef soundDef, ref SoundInfo info)
     {

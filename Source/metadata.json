@@ -3,7 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "0",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-14T20:11:57.4953887+02:00",
+  "LastXmlCleaning": "2025-11-12T08:12:57.6215041+01:00",
   "SocialImageSet": true,
-  "SearchTags": " realism"
+  "SearchTags": " realism",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 13045,
+  "LinesOfXML": 12425,
+  "CodeBaseSize": 69
 }

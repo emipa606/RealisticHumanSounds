@@ -18,7 +18,7 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://i.postimg.cc/1X4HT06h/Info.png[/img]
 Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
 
@@ -38,20 +38,20 @@ There are addons that adds sounds for various HAR-mods as well by verniy709
 
 If you have a soundpack that would fit this mod, contact me so we can add it to the list!
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://i.postimg.cc/8csH3dWV/Notice.png[/img]
 
 [table]
 	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/RealisticHumanSounds][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://i.postimg.cc/T1h9SjbF/Discord.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/RealisticHumanSounds][img]https://i.postimg.cc/fykKF7X4/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+        [td][img]https://i.postimg.cc/MHXD40RW/Safe-To-Add.png[/img][/td]
+        [td][img]https://i.postimg.cc/sx1c8PSf/Safe-To-Remove.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://i.postimg.cc/hvhrw8xB/Original-Description.png[/img]
 
 Now Updated for the full release of Rimworld!
 
@@ -70,11 +70,22 @@ Please load this mod last on your mod list to prevent any issues
 Before you ask about what mod is for the characters legs and arms animation its from Facial Stuff 1.0
 
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://i.postimg.cc/x8qR7GH9/Reporting-Issues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]
+
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
@@ -82,5 +93,5 @@ Before you ask about what mod is for the characters legs and arms animation its 
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3497264525][img]https://img.shields.io/github/v/release/emipa606/RealisticHumanSounds?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  realism</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
 </ModMetaData>

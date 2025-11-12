@@ -90,16 +90,6 @@ public class RealisticHumanSounds : Mod
     /// <param name="inRect">A Unity Rect with the size of the settings window.</param>
     public override void DoSettingsWindowContents(Rect inRect)
     {
-        if (settings.maleVolumePercent == 0)
-        {
-            settings.maleVolumePercent = 100f;
-        }
-
-        if (settings.femaleVolumePercent == 0)
-        {
-            settings.femaleVolumePercent = 100f;
-        }
-
         var listing = new Listing_Standard();
         listing.Begin(inRect);
         listing.Label("RHS.malesoundpack".Translate());
@@ -114,7 +104,7 @@ public class RealisticHumanSounds : Mod
         listing.Gap();
         listing.Label("RHS.malevolume".Translate(settings.maleVolumePercent));
         listing.Gap();
-        settings.maleVolumePercent = listing.Slider(settings.maleVolumePercent, 50, 200);
+        settings.maleVolumePercent = listing.Slider(settings.maleVolumePercent, 0, 200);
         listing.GapLine();
         listing.Label("RHS.femalesoundpack".Translate());
         foreach (var soundSet in (FemaleSounds[])Enum.GetValues(typeof(FemaleSounds)))
@@ -128,7 +118,7 @@ public class RealisticHumanSounds : Mod
         listing.Gap();
         listing.Label("RHS.femalevolume".Translate(settings.femaleVolumePercent));
         listing.Gap();
-        settings.femaleVolumePercent = listing.Slider(settings.femaleVolumePercent, 50, 200);
+        settings.femaleVolumePercent = listing.Slider(settings.femaleVolumePercent, 0, 200);
         listing.Gap();
         listing.CheckboxLabeled("RHS.deathsounds".Translate(), ref settings.deathSounds);
         listing.CheckboxLabeled("RHS.woundedsounds".Translate(), ref settings.woundedSounds);

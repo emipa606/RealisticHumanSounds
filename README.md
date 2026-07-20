@@ -1,6 +1,6 @@
 # [Realistic Human Sounds (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3497264525)
 
-![Image](https://i.postimg.cc/1X4HT06h/Info.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
@@ -21,9 +21,9 @@ There are addons that adds sounds for various HAR-mods as well by verniy709
 
 If you have a soundpack that would fit this mod, contact me so we can add it to the list!
 
-![Image](https://i.postimg.cc/8csH3dWV/Notice.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.postimg.cc/hvhrw8xB/Original-Description.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Now Updated for the full release of Rimworld!
 
@@ -70,4 +70,4 @@ Before you ask about what mod is for the characters legs and arms animation its 
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RealisticHumanSounds?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3497264525) | tags:  realism
+[![Image](https://img.shields.io/github/v/release/emipa606/RealisticHumanSounds?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3497264525) | tags: realism

@@ -6,4 +6,18 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="RealisticHumanSounds/RealisticHumanSounds.csproj" />
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Strings.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Patches/">
+    <File Path="../1.6/Patches/BaseMod_Patch.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/SoundDefs/">
+    <File Path="../Defs/SoundDefs/Pawn_Female.xml" />
+    <File Path="../Defs/SoundDefs/Pawn_Humanlike.xml" />
+    <File Path="../Defs/SoundDefs/Pawn_Male.xml" />
+  </Folder>
 </Solution>

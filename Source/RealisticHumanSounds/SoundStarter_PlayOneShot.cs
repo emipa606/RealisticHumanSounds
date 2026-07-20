@@ -10,8 +10,16 @@ public static class SoundStarter_PlayOneShot
 {
     private static bool Prefix(ref SoundDef soundDef, ref SoundInfo info)
     {
+        var map = info.Maker.Map;
+        if (map == null)
+        {
+            return true;
+        }
+
+
         try
         {
+            Pawn pawn;
             switch (soundDef.defName)
             {
                 case "Pawn_Human_Wounded":
@@ -21,7 +29,13 @@ public static class SoundStarter_PlayOneShot
                         return false;
                     }
 
-                    switch (info.Maker.Cell.GetFirstPawn(info.Maker.Map).gender)
+                    pawn = info.Maker.Cell.GetFirstPawn(map);
+                    if (pawn == null)
+                    {
+                        return false;
+                    }
+
+                    switch (pawn.gender)
                     {
                         case Gender.Male:
                             switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()
@@ -65,7 +79,13 @@ public static class SoundStarter_PlayOneShot
                         return false;
                     }
 
-                    switch (info.Maker.Cell.GetFirstPawn(info.Maker.Map).gender)
+                    pawn = info.Maker.Cell.GetFirstPawn(map);
+                    if (pawn == null)
+                    {
+                        return false;
+                    }
+
+                    switch (pawn.gender)
                     {
                         case Gender.Male:
                             switch (LoadedModManager.GetMod<RealisticHumanSounds>().GetSettings<Settings>()

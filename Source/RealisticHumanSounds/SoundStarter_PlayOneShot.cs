@@ -10,6 +10,11 @@ public static class SoundStarter_PlayOneShot
 {
     private static bool Prefix(ref SoundDef soundDef, ref SoundInfo info)
     {
+        if (soundDef == null)
+        {
+            return true;
+        }
+
         var map = info.Maker.Map;
         if (map == null)
         {
@@ -29,7 +34,7 @@ public static class SoundStarter_PlayOneShot
                         return false;
                     }
 
-                    pawn = info.Maker.Cell.GetFirstPawn(map);
+                    pawn = info.Maker.Thing as Pawn ?? info.Maker.Cell.GetFirstPawn(map);
                     if (pawn == null)
                     {
                         return false;
@@ -79,7 +84,7 @@ public static class SoundStarter_PlayOneShot
                         return false;
                     }
 
-                    pawn = info.Maker.Cell.GetFirstPawn(map);
+                    pawn = info.Maker.Thing as Pawn ?? info.Maker.Cell.GetFirstPawn(map);
                     if (pawn == null)
                     {
                         return false;

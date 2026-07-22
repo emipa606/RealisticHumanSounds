@@ -1,5 +1,8 @@
 # Changelog for RealisticHumanSounds
 
+1.6.4 - Additional nullchecks, thanks Spagles
+
+
 1.6.3 - Fix for pawns damaged inside transports
 
 

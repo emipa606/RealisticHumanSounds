@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="RealisticHumanSounds_UpdateFeatureBase">
+		<modNameReadable>RealisticHumanSounds</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3497264525</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="RealisticHumanSounds_UpdateFeatureBase">
+		<defName>RealisticHumanSounds_1_6_4</defName>
+		<assemblyVersion>1.6.4</assemblyVersion>
+		<content>This mod has been re-released for the new version of the game. This version will remain but will not be updated further.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

@@ -1,54 +1,75 @@
-# GitHub Copilot Instructions for Realistic Human Sounds (Continued)
+# GitHub Copilot Instructions for Realistic Human Sounds (Continued) Mod
 
 ## Mod Overview and Purpose
 
-The "Realistic Human Sounds (Continued)" mod for RimWorld is an auditory enhancement mod that aims to create a more immersive battle experience. It updates and continues the work from the original mod by LimitedS, adding realistic human pain and death sounds to the game. These sounds are primarily sourced from the Battlefield series and other popular games to ensure authenticity. The mod capitalizes on RimWorld's 1.6 update, utilizing improved asset bundle support to maintain a manageable mod size.
+The Realistic Human Sounds (Continued) mod for RimWorld adds realistic pain and death sounds to most pawns, enhancing the immersion of battles. The mod is an updated version of the LimitedS mod, now utilizing Asset Bundles to reduce the size of the mod. It includes support for female sounds, volume sliders, and multiple sound packs. This mod ensures that your battles will sound more realistic and painful, with most sounds sourced from the Battlefield series and Rising Storm 2.
 
 ## Key Features and Systems
 
-- **Support for Female Sounds:** The mod now includes sound packs specifically for female characters, adding diversity to the auditory experience.
-- **Volume Sliders:** Players can adjust the volume of sounds for a customized gameplay experience.
-- **Soundpack Selection:** Users can choose from different sound packs to tailor the mod to personal preferences.
-- **Selective Sound Playback:** Players can configure whether sounds for death or injuries should play.
-- **Diverse Sound Packs:** The mod comes with multiple sound packs, with contributions from various sound enthusiasts:
-  - Male sound packs provided by Quo-S (sourced from FO4 and BF5)
-  - Male sound pack 3 contributed by Battlefleet Covfefe (primarily sourced from Skyrim)
-
-### Integration with Other Mods
-
-- **HAR-mod Patches:** There are add-ons available that integrate sounds with the Humanoid Alien Races (HAR) mods, enhancing compatibility with other game modifications.
+1. **Support for Female Sounds**: The mod now includes sound packs specifically for female pawns.
+2. **Volume Sliders**: Users can adjust the volume of the sounds through the mod settings.
+3. **Soundpack Selection**: Users can choose different sound packs to customize the sounds.
+4. **Death and Wounded Sounds**: Users can set whether to play death or wounded sounds.
+5. **Multiple Sound Packs**: The mod includes several sound packs, with more provided by contributors.
 
 ## Coding Patterns and Conventions
 
-When contributing to or modifying this mod, adhere to the following conventions:
-
-- **Code Structure:** Maintain a clear and consistent structure within the C# files, ensuring methods and classes are well-commented and logically organized.
-- **Naming Conventions:** Use PascalCase for class names and methods. Use camelCase for local variables and parameters.
-- **XML Structure:** Ensure proper indentation and spacing for readability in XML definition files. Comment any major sections to explain their purpose.
+- **Harmony Patching**: The mod uses Harmony patching to inject code into the RimWorld game codebase.
+- **XML Integration**: XML files are used to define patches and settings for the mod.
+- **Settings Management**: The mod includes a settings system to manage user preferences.
+- **Sound Starter**: Custom sound starter classes are used to play one-shot sound effects.
 
 ## XML Integration
 
-The mod uses XML patches to integrate with RimWorld's def database. These XML files define how new and existing sound cues are adjusted or added. Maintain the XML’s hierarchical structure to ensure compatibility with RimWorld's parsing.
+The mod uses XML files to define patches and settings. The primary XML file is located at `1.6/Patches/BaseMod_Patch.xml`. This file contains the necessary definitions to integrate the mod with the RimWorld game.
+
+### Example XML Patch
+
+xml
+<Patch>
+    <Operation Class="Harmony.HarmonyPatch">
+        <Target>
+            <Method>
+                <DeclaringType FullName="Verse.Pawn"/>
+                <Name>Die</Name>
+            </Method>
+        </Target>
+        <Prefix Class="RealisticHumanSounds.SoundStarter_PlayOneShot"/>
+    </Operation>
+</Patch>
+
 
 ## Harmony Patching
 
-The mod uses the Harmony library for safe modification of game methods, which is crucial for maintaining compatibility with other mods:
+The mod uses Harmony patching to inject code into the RimWorld game codebase. The `HarmonyPatches` class contains the necessary Harmony patches.
 
-- **HarmonyPatches.cs:** This file contains the necessary patches to hook into the game's sound playback methods. Use careful inspection of existing game code to determine where patches should be applied.
-- Ensure that any Harmony patches:
-  - Are reversible, allowing players to safely disable the mod without corrupting their game.
-  - Do not inadvertently affect unrelated game functionality.
+### Example Harmony Patch
+
+csharp
+using HarmonyLib;
+
+namespace RealisticHumanSounds
+{
+    [HarmonyPatch(typeof(Pawn), "Die")]
+    public static class HarmonyPatches
+    {
+        public static void Prefix(Pawn __instance)
+        {
+            // Play death sound
+            SoundStarter_PlayOneShot.PlayOneShot(SoundDef.Named("DeathSound"));
+        }
+    }
+}
+
 
 ## Suggestions for Copilot
 
-When using GitHub Copilot or any AI code-assistant, consider the following suggestions to improve code suggestions and contribute effectively:
+1. **Code Generation for Patches**: Use Copilot to generate Harmony patches for specific game methods.
+2. **Settings Management**: Use Copilot to generate code for managing mod settings and user preferences.
+3. **Sound Starter Classes**: Use Copilot to generate custom sound starter classes for playing one-shot sound effects.
+4. **XML Definitions**: Use Copilot to generate XML definitions for patches and settings.
 
-- **Explicitly Define Intent:** Clearly comment sections of the code where complex logic is applied. This helps Copilot generate contextually accurate code.
-- **Review and Refactor:** Carefully review Copilot's suggestions, as AI-generated code may not always align perfectly with the project's standards or intentions.
-- **Initial Setup:** Guide Copilot to relevant methods, libraries, and patterns by providing examples and explicit instructions in comments where complex integrations are involved.
-- **Leverage Copilot for Repetitive Tasks:** Use Copilot to assist with repetitive patterns, such as generating multiple settings options or creating similar methods within the same class framework.
-
-By adhering to these guidelines, contributors can enhance their development workflow, ensuring that the mod remains robust, reliable, and true to its intended purpose.
+By following these guidelines and suggestions, developers can efficiently contribute to the Realistic Human Sounds (Continued) mod and enhance the immersive experience for RimWorld players.
 
 ## Project Solution Guidelines
 - Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
@@ -62,4 +83,6 @@ By adhering to these guidelines, contributors can enhance their development work
 ## Hard rules (must follow)
 - Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
 - Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
 

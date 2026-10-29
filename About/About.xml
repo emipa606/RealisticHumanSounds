@@ -5,7 +5,7 @@
   <author>LimitedS</author>
   <url>https://github.com/emipa606/RealisticHumanSounds</url>
   <supportedVersions>
-    <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -22,8 +22,8 @@
 Update of LimitedS mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1543157058
 
-[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url].[/b]
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2013191418]here[/url].
+[b]The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance[/b].
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the previous version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3497264525]here[/url].
 
 - Added support for female sounds.
 - Added volume-sliders
@@ -90,8 +90,6 @@ Before you ask about what mod is for the characters legs and arms animation its 
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list] 
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3497264525][img]https://img.shields.io/github/v/release/emipa606/RealisticHumanSounds?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: realism</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.4</modVersion>
+[/list]  | realism</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

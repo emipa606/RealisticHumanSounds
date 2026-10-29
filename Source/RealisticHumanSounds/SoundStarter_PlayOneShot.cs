@@ -8,7 +8,7 @@ namespace RealisticHumanSounds;
 [HarmonyPatch(typeof(SoundStarter), nameof(SoundStarter.PlayOneShot), typeof(SoundDef), typeof(SoundInfo))]
 public static class SoundStarter_PlayOneShot
 {
-    private static bool Prefix(ref SoundDef soundDef, ref SoundInfo info)
+    public static bool Prefix(ref SoundDef soundDef, ref SoundInfo info)
     {
         if (soundDef == null)
         {
